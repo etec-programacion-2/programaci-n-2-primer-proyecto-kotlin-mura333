@@ -24,3 +24,7 @@ fun mostrarTiposDeDatos() {
     println("Altura: $altura")
     println("Es estudiante: $esEstudiante")
 }
+
+fun main (){
+        mostrarTiposDeDatos()
+}
