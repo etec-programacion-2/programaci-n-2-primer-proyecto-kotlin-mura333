@@ -13,4 +13,14 @@ fun main() {
     println("¡Hola, Kotlin!")
 
 }
-
+fun mostrarTiposDeDatos() {
+    val nombre: String = "Juan"
+    val edad: Int = 25
+    val altura: Double = 1.75
+    val esEstudiante: Boolean = true
+    
+    println("Nombre: $nombre")
+    println("Edad: $edad")
+    println("Altura: $altura")
+    println("Es estudiante: $esEstudiante")
+}
