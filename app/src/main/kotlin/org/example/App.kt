@@ -12,6 +12,7 @@ class App {
 fun main() {
     println("¡Hola, Kotlin!")
     mostrarTiposDeDatos()
+    println(positivonegativocero)
 }
 fun mostrarTiposDeDatos() {
     val nombre: String = "mura"
@@ -23,4 +24,10 @@ fun mostrarTiposDeDatos() {
     println("Edad: $edad")
     println("Altura: $altura")
     println("Es estudiante: $es estudiante")
+}
+fun esParOImpar(numero: Int): String {
+    return when {
+        numero % 2 == 0 -> "Par"
+        else -> "Impar"
+    }
 }
